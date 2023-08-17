@@ -38,9 +38,9 @@
 
               <p style="text-align:center">
                 <a href="mailto:maolin.gao@gmail.com">Email</a> &nbsp/&nbsp
+                <a href="https://scholar.google.com/citations?user=BupaOMMAAAAJ&hl=en&oi=ao">Google Scholar</a> &nbsp/&nbsp
                 <a href="https://twitter.com/GaoMaolin">Twitter</a> &nbsp/&nbsp
-                <a href="https://github.com/maolingao/">Github</a> &nbsp/&nbsp
-                <a href="blog/blog.html">Blog</a>
+                <a href="https://github.com/maolingao/">Github</a> 
               </p>
             </td>
 
@@ -96,6 +96,7 @@
           <tr>
 	<td>
 	<ul>
+	  <li>2023/08: Our Paper on scale-invariant global shape matching has been accepted in ICCV in Paris, France.</li>
 	  <li>2021/03: Our Paper on isometric multi-shape matching has been accepted as oral in CVPR 2021.</li>
 	  <li>2020/10: Our Paper on distributed photometric BA has been accepted as oral in 3DV in Fukuoka, Japan.</li>
 	  <li>2020/01: Moved back to CVAI Lab at TUM. </li>
@@ -124,6 +125,51 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 
+          <tr onmouseout="sigma_stop()" onmouseover="sigma_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='sigma_image'>
+                <img  src='image/sigma-teaser1.png' width="100%">
+	        </div>
+                <img src='image/sigma-teaser2.png' width="100%">
+              </div>
+              <script type="text/javascript">
+                function sigma_start() {
+                  document.getElementById('sigma_image').style.opacity = "1";
+                }
+                function sigma_stop() {
+                  document.getElementById('sigma_image').style.opacity = "0";
+                }
+                sigma_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2012.02689">
+                <papertitle>SIGMA: Scale-Invariant Global Sparse Shape Matching</papertitle>
+              </a>
+              <br>
+              <strong>Maolin Gao</strong>, 
+              <a href="https://lovc.cs.uni-bonn.de/index.php/team/paul-roetzer/">Paul Roetzer</a>, 
+              <a href="https://cvg.cit.tum.de/members/eisenber">Marvin Eisenberger</a>, 
+              <a href="https://zorah.github.io/">Zorah Lähner</a>, 
+              <a href="https://sites.google.com/site/michaelmoellermath/">Michael Moeller</a>, 
+              <a href="https://vision.in.tum.de/members/cremers">Daniel Cremers</a>,
+              <a href="https://lovc.cs.uni-bonn.de/index.php/team/florian-bernard/">Florian Bernard</a>
+              <br>
+              <em>ICCV</em>, 2023 
+              <br>
+              <a href="https://cvg.cit.tum.de/_media/members/gaom/sigma-25mb.pdf">paper(25MB)</a> /
+              <a href="https://cvg.cit.tum.de/_media/members/gaom/sigma-6kb.pdf">paper(600KB)</a> /
+              <a href="https://cvg.cit.tum.de/_media/members/gaom/sigma-suppmat-9mb.pdf">suppmat(9MB)</a> /
+              <a href="">video (coming soon)</a> /
+              <a href="">code (coming soon)</a> /
+              <a href="bib/gao2023sigma.txt">bibtex</a> 
+              <p></p>
+              <p> A shape construction and matching method which can be solved to global optimality.
+              </p>
+            </td>
+          </tr>
+
           <tr onmouseout="isomush_stop()" onmouseover="isomush_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -148,10 +194,10 @@
               </a>
               <br>
               <strong>Maolin Gao</strong>, 
-              <a href="https://vision.in.tum.de/members/laehner">Zorah Lähner</a>, 
-              <a href="https://sites.google.com/site/johanthunbergphd/">Johan Thunberg</a>, 
+              <a href="https://zorah.github.io/">Zorah Lähner</a>, 
+              <a href="https://scholar.google.se/citations?user=EG4ZBbcAAAAJ&hl=sv">Johan Thunberg</a>, 
               <a href="https://vision.in.tum.de/members/cremers">Daniel Cremers</a>,
-              <a href="https://sites.google.com/site/fbernardpi/">Florian Bernard</a>
+              <a href="https://lovc.cs.uni-bonn.de/index.php/team/florian-bernard/">Florian Bernard</a>
               <br>
               <em>CVPR</em>, 2021, <span style="color:red">Oral</span> 
               <br>
