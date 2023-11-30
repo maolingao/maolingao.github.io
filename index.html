@@ -65,18 +65,20 @@
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
-            <td style="padding:20px;width:20%;vertical-align:middle">
+            <td style="padding:20px;width:16%;vertical-align:middle">
+                <a href="https://mcml.ai/"> <img src="image/MCML_logo.jpeg" alt="mcml_logo" style="max-width:120%"></a>
+            <td style="padding:20px;width:16%;vertical-align:middle">
                 <a href="https://www.tum.de/en/"> <img src="image/tum_logo.jpg" alt="tum_logo" style="max-width:80%"></a>
-            <td style="padding:20px;width:20%;vertical-align:middle">
+            <td style="padding:20px;width:16%;vertical-align:middle">
                 <a href="https://www.mpg.de/en"> <img src="image/mpi_logo.png" alt="mpi_logo" style="max-width:80%"></a>
             </td>
-            <td style="padding:20px;width:20%;vertical-align:middle">
-                <a href="https://www.bosch.com"> <img src="image/bosch_logo.png" alt="bosch_logo" style="max-width:100%"></a>
+            <td style="padding:20px;width:16%;vertical-align:middle">
+                <a href="https://www.bosch.com"> <img src="image/bosch_logo.png" alt="bosch_logo" style="max-width:105%"></a>
             </td>
-            <td style="padding:20px;width:20%;vertical-align:middle">
-                <a href="https://www.rwth-aachen.de/cms/~a/root/?lidx=1"> <img src="image/rwth_logo.png" alt="rwth_logo" style="max-width:80%"></a>
+            <td style="padding:20px;width:16%;vertical-align:middle">
+                <a href="https://www.rwth-aachen.de/cms/~a/root/?lidx=1"> <img src="image/rwth_logo.png" alt="rwth_logo" style="max-width:85%"></a>
             </td>
-            <td style="padding:20px;width:20%;vertical-align:middle">
+            <td style="padding:20px;width:16%;vertical-align:middle">
                 <a href="https://en.tongji.edu.cn"> <img src="image/tongji_logo.png" alt="tongji_logo" style="max-width:70%"></a>
             </td>
             </tr>
@@ -125,6 +127,46 @@
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+          <tr onmouseout="gcpsm_stop()" onmouseover="gcpsm_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='gcpsm_image'>
+                <img  src='image/gcpsm-teaser1.png' width="100%">
+	        </div>
+                <img src='image/gcpsm-teaser2.png' width="100%">
+              </div>
+              <script type="text/javascript">
+                function gcpsm_start() {
+                  document.getElementById('gcpsm_image').style.opacity = "1";
+                }
+                function gcpsm_stop() {
+                  document.getElementById('gcpsm_image').style.opacity = "0";
+                }
+                gcpsm_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/pdf/2309.05013v1.pdf">
+                <papertitle>Geometrically Consistent Partial Shape Matching</papertitle>
+              </a>
+              <br>
+              <a href="https://cvg.cit.tum.de/members/ehm">Viktoria Ehm</a>, 
+              <a href="https://lovc.cs.uni-bonn.de/index.php/team/paul-roetzer/">Paul Roetzer</a>, 
+              <a href="https://cvg.cit.tum.de/members/eisenber">Marvin Eisenberger</a>, 
+              <strong>Maolin Gao</strong>, 
+              <a href="https://lovc.cs.uni-bonn.de/index.php/team/florian-bernard/">Florian Bernard</a>,
+              <a href="https://vision.in.tum.de/members/cremers">Daniel Cremers</a>
+              <br>
+              <em>3DV</em>, 2024 
+              <br>
+              <a href="https://arxiv.org/pdf/2309.05013v1.pdf">paper</a> /
+              <a href="">code (coming soon)</a> /
+              <a href="bib/ehm2024gcpsm.txt">bibtex</a> 
+              <p></p>
+              <p> Partial-to-full shape matching approaches encourages geometrical consistency.
+              </p>
+            </td>
+          </tr>
 
           <tr onmouseout="sigma_stop()" onmouseover="sigma_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -145,7 +187,7 @@
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2012.02689">
+              <a href="https://arxiv.org/abs/2308.08393">
                 <papertitle>SIGMA: Scale-Invariant Global Sparse Shape Matching</papertitle>
               </a>
               <br>

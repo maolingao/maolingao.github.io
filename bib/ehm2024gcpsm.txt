@@ -1,0 +1,7 @@
+@inproceedings{ehm2024gcpsm,
+    author 	= { Viktoria Ehm and Paul Roetzer and Marvin Eisenberger and Maolin Gao and Florian Bernard and Daniel Cremers },
+    title 	= { Geometrically Consistent Partial Shape Matching},
+    booktitle = {International Conference on 3D Vision (3DV)},
+    year 	= 2024,
+    keywords = {Shape Analysis, Linear Integer Programming}
+}
