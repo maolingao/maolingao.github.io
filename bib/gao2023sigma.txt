@@ -1,6 +1,6 @@
 @inproceedings{gao2023sigma,
     author 	= { Maolin Gao and Paul Roetzer and Marvin Eisenberger and Zorah L\"ahner and Michael Moeller and Daniel Cremers and Florian Bernard },
-    title 	= { {SIGMA}: Quantum Scale-Invariant Global Sparse Shape Matching},
+    title 	= { {SIGMA}: Scale-Invariant Global Sparse Shape Matching},
     booktitle = {International Conference on Computer Vision (ICCV)},
     year 	= 2023,
     keywords = {Shape Analysis, Geometry Processing, Global Optimisation, Mixed-Integer Programming, Laplace-Betrami}
