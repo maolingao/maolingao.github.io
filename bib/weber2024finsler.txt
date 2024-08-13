@@ -1,0 +1,7 @@
+@inproceedings{weber2024finsler,
+  title={Finsler-Laplace-Beltrami Operators with Application to Shape Analysis},
+  author={Weber, Simon and Dag{\`e}s, Thomas and Gao, Maolin and Cremers, Daniel},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={3131--3140},
+  year={2024}
+}

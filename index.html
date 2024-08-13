@@ -50,8 +50,9 @@
               <p style="text-align:center">
                 <name>Maolin Gao (高茂林)</name>
               </p>
-              <p>I am a Ph.D. student at <a href="https://vision.in.tum.de/research">TUM CVAI Lab</a> with <a href="https://vision.in.tum.de/members/cremers">Prof. Daniel Cremers</a>, working on computer vision, graphics and optimisation.
+              <p>I am a Ph.D. student at <a href="https://vision.in.tum.de/research">TUM CVAI Lab</a> with <a href="https://vision.in.tum.de/members/cremers">Prof. Daniel Cremers</a>, working on computer vision, graphics and optimisation. Currently I am visiting the <a href="https://geometry.stanford.edu/index.html">Geometric Computing Lab</a> at Stanford headed by <a href="https://geometry.stanford.edu/member/guibas/index.html">Prof. Leonidas J. Guibas</a>.
               </p>
+	      </p> At Stanford, I am working at the intersection of geometry and learning. </p>
               <p> At TUM, I've worked on <a href="https://vision.in.tum.de/research/geometry">Shape Analysis</a>, <a href="https://vision.in.tum.de/research/vslam">Visual Simultaneous Localisation and Mapping (SLAM)</a> and <a href="https://vision.in.tum.de/research/ps_reconstruction">Photometric Stereo (PS)</a>. 
 	     </p>
 
@@ -98,6 +99,8 @@
           <tr>
 	<td>
 	<ul>
+	  <li>2024/08: One paper on neural surface reconstruction will apear in GCPR 2024 in Munich, Germany.</li>
+	  <li>2024/07: I will visit the <a href="https://geometry.stanford.edu/index.html">Geometric Computing Lab</a> at Stanford and working with <a href="https://geometry.stanford.edu/member/guibas/index.html">Prof. Leonidas J. Guibas</a> for this summer.</li>
 	  <li>2024/03: Two papers have been accepted in CVPR 2024 in Seattle, USA.<br>&emsp;&emsp;&emsp;&emsp;1. Finsler-Laplace-Beltrami Operators with Application to Shape Analysis.<br>&emsp;&emsp;&emsp;&emsp;2. Partial-to-Partial Shape Matching with Geometric Consistency.</li>
 	  <li>2023/10: Our paper on consistent partial shape matching has been accepted in 3DV 2024 in Davos, Switzerland.</li>
 	  <li>2023/08: Our paper on global shape matching has been accepted in ICCV 2023 in Paris, France.</li>
@@ -127,6 +130,87 @@
 
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <tr onmouseout="finsler_stop()" onmouseover="finsler_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='finsler_image'>
+                <img  src='image/finsler_anisotropy.png' width="80%">
+	        </div>
+                <img src='image/finsler_planes.png' width="80%">
+              </div>
+              <script type="text/javascript">
+                function finsler_start() {
+                  document.getElementById('finsler_image').style.opacity = "1";
+                }
+                function finsler_stop() {
+                  document.getElementById('finsler_image').style.opacity = "0";
+                }
+                finsler_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2404.03999">
+                <papertitle>Finsler-Laplace-Beltrami Operators with Application to Shape Analysis</papertitle>
+              </a>
+              <br>
+              <a href="https://cvg.cit.tum.de/members/webersi">Simon Weber</a>, 
+              <a href="https://www.linkedin.com/in/thomas-dag%C3%A8s/?originalSubdomain=il">Tom Dages</a>, 
+              <strong>Maolin Gao</strong>, 
+              <a href="https://vision.in.tum.de/members/cremers">Daniel Cremers</a>
+              <br>
+              <em>CVPR</em>, 2024 
+              <br>
+              <a href="https://arxiv.org/abs/2404.03999">paper</a> /
+              <a href="https://github.com/tum-vision/flbo">code</a> /
+	      <a href= "https://www.youtube.com/watch?v=JCmblM9A1WI&t=6s">video</a> /
+              <a href="bib/weber2024finsler.txt">bibtex</a> 
+              <p></p>
+              <p> A solution of heat equation on the Finsler manifold which induces natural anisotropy.
+              </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="gcppsm_stop()" onmouseover="gcppsm_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='gcppsm_image'>
+                <img  src='image/gcppsm_teaser.png' width="100%">
+	        </div>
+                <img src='image/gcppsm_pruning.png' width="100%">
+              </div>
+              <script type="text/javascript">
+                function gcppsm_start() {
+                  document.getElementById('gcppsm_image').style.opacity = "1";
+                }
+                function gcppsm_stop() {
+                  document.getElementById('gcppsm_image').style.opacity = "0";
+                }
+                gcppsm_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://vikiehm.github.io/publications/gcppsm/">
+                <papertitle>Partial-to-Partial Shape Matching with Geometric Consistency</papertitle>
+              </a>
+              <br>
+              <a href="https://cvg.cit.tum.de/members/ehm">Viktoria Ehm</a>, 
+              <strong>Maolin Gao</strong>, 
+              <a href="https://lovc.cs.uni-bonn.de/index.php/team/paul-roetzer/">Paul Roetzer</a>, 
+              <a href="https://cvg.cit.tum.de/members/eisenber">Marvin Eisenberger</a>, 
+              <a href="https://lovc.cs.uni-bonn.de/index.php/team/florian-bernard/">Florian Bernard</a>,
+              <a href="https://vision.in.tum.de/members/cremers">Daniel Cremers</a>
+              <br>
+              <em>CVPR</em>, 2024 
+              <br>
+              <a href="https://arxiv.org/pdf/2404.12209">paper</a> /
+	      <a href="https://vikiehm.github.io/publications/gcppsm/">webpage</a> /
+              <a href="bib/ehm2024gcppsm.txt">bibtex</a> 
+              <p></p>
+              <p> Partial-to-partial shape matching approaches guided by geometric consistency.
+              </p>
+            </td>
+          </tr>
 
           <tr onmouseout="gcpsm_stop()" onmouseover="gcpsm_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -161,9 +245,10 @@
               <em>3DV</em>, 2024 
               <br>
               <a href="https://arxiv.org/pdf/2309.05013v1.pdf">paper</a> /
+              <a href="https://github.com/vikiehm/geometrically-consistent-partial-shape-matching">code</a> /
               <a href="bib/ehm2024gcpsm.txt">bibtex</a> 
               <p></p>
-              <p> Partial-to-full shape matching approaches encourages geometrical consistency.
+              <p> Partial-to-full shape matching approaches encourages geometric consistency.
               </p>
             </td>
           </tr>

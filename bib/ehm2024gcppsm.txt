@@ -1,0 +1,6 @@
+@inproceedings{ehm2024partial,
+   title={Partial-to-Partial Shape Matching with Geometric Consistency},
+   author={Ehm,
+   Viktoria and Gao, Maolin and Roetzer, Paul and Eisenberger, Marvin and Cremers, Daniel and Bernard, Florian}, booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+   pages={27488--27497},
+   year={2024} }
