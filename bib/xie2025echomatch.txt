@@ -1,0 +1,8 @@
+@InProceedings{Xie2025echomatch,
+    author    = {Xie, Yizheng and Ehm, Viktoria and Roetzer, Paul and El Amrani, Nafie and Gao, Maolin and Bernard, Florian and Cremers, Daniel},
+    title     = {EchoMatch: Partial-to-Partial Shape Matching via Correspondence Reflection},
+    booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR)},
+    month     = {June},
+    year      = {2025},
+    pages     = {11665-11675}
+}

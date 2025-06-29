@@ -52,7 +52,7 @@
               </p>
               <p>I am a Ph.D. student at <a href="https://vision.in.tum.de/research">TUM CVAI Lab</a> with <a href="https://vision.in.tum.de/members/cremers">Prof. Daniel Cremers</a>, working on computer vision, graphics and optimisation. I was a visiting scholar at the <a href="https://geometry.stanford.edu/index.html">Geometric Computing Lab</a> at Stanford University headed by <a href="https://profiles.stanford.edu/leonidas-guibas">Prof. Leonidas J. Guibas</a> in the summer 2024.
               </p>
-	            </p> My current research centers on the intersection of geometry and learning, aiming to enhance both human and machine understanding of 3D data. </p>
+	            </p> My current research centers on the intersection of geometry and learning, aiming to enhance both human and machine understanding of 2D and 3D data. </p>
               <!-- <p> At TUM, I've worked on <a href="https://vision.in.tum.de/research/geometry">Shape Analysis</a>, <a href="https://vision.in.tum.de/research/vslam">Visual Simultaneous Localisation and Mapping (SLAM)</a> and <a href="https://vision.in.tum.de/research/ps_reconstruction">Photometric Stereo (PS)</a>. 
 	            </p> -->
 
@@ -119,6 +119,8 @@
           <tr>
 	<td>
 	<ul>
+	  <li>2025/06: Our partial shape dataset and benchmark paper has been accepted in SGP 2025</a> in Bilbao, Spain.</li>
+	  <li>2025/03: Our paper on partial-to-partial shape matching called echoMatch has been accepted in CVPR 2025</a> in Nashville, USA.</li>
 	  <li>2024/11: Our paper on embedding learning for point clouds got accepted in <a href="https://3dvconf.github.io/2025/">3DV 2025</a> in Singapore.</li>
 	  <li>2024/08: One paper on neural surface reconstruction will apear in GCPR 2024 in Munich, Germany.</li>
 	  <li>2024/07: I will visit the <a href="https://geometry.stanford.edu/index.html">Geometric Computing Lab</a> at Stanford and working with <a href="https://profiles.stanford.edu/leonidas-guibas">Prof. Leonidas J. Guibas</a> for this summer.</li>
@@ -149,6 +151,140 @@
           </tr>
         </tbody></table>
 
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <tr onmouseout="becos_stop()" onmouseover="becos_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='becos_image'>
+                <img  src='image/becos_teaser1.png' width="100%">
+	        </div>
+                <img src='image/becos_teaser1.png' width="100%">
+              </div>
+              <script type="text/javascript">
+                function becos_start() {
+                  document.getElementById('becos_image').style.opacity = "1";
+                }
+                function becos_stop() {
+                  document.getElementById('becos_image').style.opacity = "0";
+                }
+                becos_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://geometryinml.cs.uni-bonn.de/publications/2025-sgp-becos.html">
+                <papertitle>Beyond Complete Shapes: A Quantitative Evaluation of 3D Shape Matching Algorithms</papertitle>
+              </a>
+              <br>
+              <a href="https://cvg.cit.tum.de/members/ehm">Viktoria Ehm*</a>, 
+              <a href="https://nafieamrani.github.io/">Nafie El Amrani*</a>, 
+              <a href="https://xieyizheng.com/">Yizheng Xie</a>, 
+              <a href="https://www.cs.cit.tum.de/camp/members/lennart-bastian/">Lennart Bastian</a>, 
+              <strong>Maolin Gao</strong>, 
+              <a href="https://wei-kang-wang.github.io/">Weikang Wang</a>, 
+              <a href="https://sangluisme.github.io/">Lu Sang</a>, 
+              <a href="https://dongliangcao.github.io/">Dongliang Cao</a>, 
+              <a href="https://zorah.github.io/">Zorah Lähner</a>, 
+              <a href="https://vision.in.tum.de/members/cremers">Daniel Cremers</a>,
+              <a href="https://lovc.cs.uni-bonn.de/index.php/team/florian-bernard/">Florian Bernard</a>
+              <br>
+              <em>SGP</em>, 2025 
+              <br>
+              <a href="https://arxiv.org/abs/2411.03511">paper</a> /
+              <a href="">code(coming soon)</a> /
+              <a href="bib/ehm2025beyond.txt">bibtex</a> 
+              <p></p>
+              <p> A framework to generate partial shapes with ground truth correspondences across datasets.
+              </p>
+            </td>
+          </tr>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <tr onmouseout="echomatch_stop()" onmouseover="echomatch_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='echomatch_image'>
+                <img  src='image/echomatch_teaser1.png' width="100%">
+	        </div>
+                <img src='image/echomatch_teaser2.png' width="100%">
+              </div>
+              <script type="text/javascript">
+                function echomatch_start() {
+                  document.getElementById('echomatch_image').style.opacity = "1";
+                }
+                function echomatch_stop() {
+                  document.getElementById('echomatch_image').style.opacity = "0";
+                }
+                echomatch_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://echo-match.github.io/">
+                <papertitle>EchoMatch: Partial-to-Partial Shape Matching via Correspondence Reflection</papertitle>
+              </a>
+              <br>
+              <a href="https://xieyizheng.com/">Yizheng Xie*</a>, 
+              <a href="https://cvg.cit.tum.de/members/ehm">Viktoria Ehm*</a>, 
+              <a href="https://lovc.cs.uni-bonn.de/index.php/team/paul-roetzer/">Paul Roetzer</a>, 
+              <a href="https://nafieamrani.github.io/">Nafie El Amrani</a>, 
+              <strong>Maolin Gao</strong>, 
+              <a href="https://lovc.cs.uni-bonn.de/index.php/team/florian-bernard/">Florian Bernard</a>
+              <a href="https://vision.in.tum.de/members/cremers">Daniel Cremers</a>
+              <br>
+              <em>CVPR</em>, 2025 
+              <br>
+              <a href="https://xieyizheng.com/media/papers/echomatch/echo_match_paper_reduced.pdf">paper</a> /
+              <a href="https://echo-match.github.io/">project</a> /
+	      <a href= "https://github.com/vikiehm/echo-match/">code</a> /
+              <a href="bib/xie2025echomatch.txt">bibtex</a> 
+              <p></p>
+              <p> Cycle-consistency applied to partial shapes for accurate overlapping region prediction.
+              </p>
+            </td>
+          </tr>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <tr onmouseout="coe_stop()" onmouseover="coe_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='coe_image'>
+                <img  src='image/coe_teaser1.png' width="100%">
+	        </div>
+                <img src='image/coe_teaser2.png' width="100%">
+              </div>
+              <script type="text/javascript">
+                function coe_start() {
+                  document.getElementById('coe_image').style.opacity = "1";
+                }
+                function coe_stop() {
+                  document.getElementById('coe_image').style.opacity = "0";
+                }
+                coe_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://zenghjian.github.io/coe_page/">
+                <papertitle>CoE: Deep Coupled Embedding for Non-Rigid Point Cloud Correspondences</papertitle>
+              </a>
+              <br>
+              <strong>Maolin Gao*</strong>, 
+              <a href="https://zenghjian.github.io/">Huajian Zeng*</a>, 
+              <a href="https://vision.in.tum.de/members/cremers">Daniel Cremers</a>
+              <br>
+              <em>3DV</em>, 2025 
+              <br>
+              <a href="https://arxiv.org/pdf/2412.05557">paper</a> /
+              <a href="https://github.com/zenghjian/coe">code</a> /
+	      <a href= "https://zenghjian.github.io/coe_page/">project</a> /
+              <a href="bib/gao2025coe.txt">bibtex</a> 
+              <p></p>
+              <p> A geometrically motivated shape embedding that is robust to non-rigid deformations.
+              </p>
+            </td>
+          </tr>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
@@ -313,7 +449,7 @@
               <a href="https://github.com/maolingao/SIGMA">code</a> /
               <a href="bib/gao2023sigma.txt">bibtex</a> 
               <p></p>
-              <p> A shape construction and matching method which can be solved to global optimality.
+              <p> A scale and E(3)-invariant shape deformation operator and a matching method which can be solved to global optimality.
               </p>
             </td>
           </tr>
@@ -354,7 +490,7 @@
               <a href="https://github.com/maolingao/IsoMuSh">code</a> /
               <a href="bib/gao2021multi.txt">bibtex</a> 
               <p></p>
-              <p> An efficient and easy-to-implement isometric multi-shape matching algorithm utilising universe shape and functional maps.
+              <p> An efficient and easy-to-implement isometric multi-shape matching algorithm utilising a universe shape and functional maps.
               </p>
             </td>
           </tr>
@@ -431,8 +567,8 @@
                 <papertitle>Variational Uncalibrated Photometric Stereo Under General Lighting</papertitle>
               </a>
               <br>
-              <a href="https://vision.in.tum.de/members/haefner">Björn Häfner</a>,
-              <a href="https://vision.in.tum.de/members/yez">Zhenzhang Ye</a>,
+              <a href="https://vision.in.tum.de/members/haefner">Björn Häfner*</a>,
+              <a href="https://vision.in.tum.de/members/yez">Zhenzhang Ye*</a>,
               <strong>Maolin Gao</strong>, 
               <a href="https://scholar.google.com/citations?hl=en&user=ozunQo4AAAAJ&view_op=list_works&sortby=pubdate">Tao Wu</a>,
               <a href="https://sites.google.com/view/yvainqueau">Yvain Queau</a>,

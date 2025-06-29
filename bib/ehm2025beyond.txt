@@ -1,0 +1,6 @@
+@inproceedings{ ehm2025beyond, 
+    		author 	= { Viktoria Ehm and Nafie El Amrani and Yizheng Xie and Lennart Bastian and Maolin Gao and Weikang Wang and Lu Sang and Dongliang Cao and Zorah Lähner and Daniel Cremers and Florian Bernard },
+        	title 	= { Beyond Complete Shapes: A Quantitative Evaluation of 3D Shape Matching Algorithms },
+       		booktitle = { Symposium on Geometry Processing (SGP) },
+        	year 	= { 2025 },
+    	}

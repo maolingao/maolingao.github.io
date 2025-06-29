@@ -1,0 +1,7 @@
+@inproceedings{gao2025coe,
+    title = {{CoE}: Deep Coupled Embedding for Non-Rigid Point Cloud Correspondences},
+    author = {Gao, Maolin and Zeng, Huajian and Cremers, Daniel},
+    booktitle = {International Conference on 3D Vision (3DV)},
+    month = {March},
+    year = {2025},
+}
